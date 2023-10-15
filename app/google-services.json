@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939059933340",
+    "project_id": "appadmindd2",
+    "storage_bucket": "appadmindd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939059933340:android:8329730f91d7ded42bfd59",
+        "android_client_info": {
+          "package_name": "com.example.duancd2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0X79e0eibfnNgARWP9bZBavNUgQSH5us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
