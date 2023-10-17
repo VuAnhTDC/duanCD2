@@ -12,7 +12,61 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:background="#D3C6C6"
         />
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#BDB5B5"
+        >
+        <Button
+            android:id="@+id/btnSearchSreenHome_Admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tìm kiếm"
+            android:background="#673AB7"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtIdSearchSreenHome_Admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mã cần tìm"/>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginHorizontal="10dp"
+        >
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_ScreenHome"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager_ScreenHome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bottom navigation bar"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
